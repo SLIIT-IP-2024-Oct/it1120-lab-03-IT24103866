@@ -13,7 +13,8 @@ public class IT24103866Lab3Q4 {
 		int digit3 = (number/100)%10;
 		int digit4 = (number/10)%10;
 		int digit5 = number%10;
-		
+
+		System.out.println("");
 		System.out.print("" + digit1 + " " + digit2 + " " + digit3 + " " + digit4 + " " + digit5);		
 	}
 }
