@@ -9,16 +9,16 @@ public class IT24103866Lab3Q3 {
 		
 		//calculations
 		int amount1 = amount/5000;
-		int amount2 = amount/1000;
-		int amount3 = (amount-(1000*amount2))/(500);
-		int amount4 = (amount-((1000*amount2)+(500*amount3)))/200;
-		int amount5 = (amount-((1000*amount2)+(500*amount3)+(200*amount4)))/100;
-		int amount6 = (amount-((1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)))/50;
-		int amount7 = (amount-((1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)))/20;
-		int amount8 = (amount-((1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)))/10;
-		int amount9 = (amount-((1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)+(10*amount8)))/05;
-		int amount10 =(amount-((1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)+(10*amount8)+(05*amount9)))/02;
-		int amount11 =(amount-((1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)+(10*amount8)+(05*amount9)+(02*amount10)))/01;
+		int amount2 = (amount-(5000*amount1))/1000;
+		int amount3 = (amount-((5000*amount1)+(1000*amount2)))/(500);
+		int amount4 = (amount-((5000*amount1)+(1000*amount2)+(500*amount3)))/200;
+		int amount5 = (amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)))/100;
+		int amount6 = (amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)))/50;
+		int amount7 = (amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)))/20;
+		int amount8 = (amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)))/10;
+		int amount9 = (amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)+(10*amount8)))/05;
+		int amount10 =(amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)+(10*amount8)+(05*amount9)))/02;
+		int amount11 =(amount-((5000*amount1)+(1000*amount2)+(500*amount3)+(200*amount4)+(100*amount5)+(50*amount6)+(20*amount7)+(10*amount8)+(05*amount9)+(02*amount10)))/01;
 		
 		
 		
